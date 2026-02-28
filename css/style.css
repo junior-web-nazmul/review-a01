@@ -1,0 +1,98 @@
+/* font style................... */
+.raleway-font-primary {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* ................................................ */
+
+body{
+    /* max-width: 1440px; */
+    margin: 0;
+}
+
+/* share style-------------- */
+
+.btn-primary{
+    width: fit-content;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4E47FF;
+}
+
+section{
+    margin: 50px 150px 0;
+}
+/* nav section------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+nav h1{
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+
+/*  banner section----------------------- */
+.banner{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 700px;
+}
+.banner-contant{
+    text-align: center;
+    margin: 0 auto;
+    width: 900px;height: 150px;
+}
+.banner-contant h4{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+/* action section-------------------- */
+
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+.action-describetion{
+    font-size: 24px;
+    color:  #6e6b94;
+}
+
+.action img{
+    border-radius: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
