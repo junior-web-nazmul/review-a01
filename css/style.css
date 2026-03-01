@@ -11,6 +11,7 @@
 body{
     /* max-width: 1440px; */
     margin: 0;
+    background-color: #f1f1f6;
 }
 
 /* share style-------------- */
@@ -165,6 +166,87 @@ nav h1{
 .focus img{
     margin-top: 20px;
     border-radius: 40px;
+}
+
+/* comment section--------------------- */
+.comment-container{
+    padding-bottom: 100px;
+}
+.comment-contant{
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+    align-items: center;
+}
+.comment-contant h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.comment-contant label{
+    font-size: 18px;
+    font-weight: 500;
+    display:block;
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+
+.comment-contant input{
+    font-size: 20px;
+    padding-left: 20px;
+    width: 500px;height: 70px;
+    outline: none;
+    border: none;border-radius: 10px;
+   
+}
+
+.comment-form textarea{
+    width: 482px;height: 130px;
+    padding: 20px;
+    font-size:20px ;
+    color: rgba(159, 155, 155);
+    outline: none;
+    border: none;border-radius: 10px;
+}
+
+.submit-btn{
+    width: 525px;height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4E47FF;
+}
+
+/* footer section============== */
+footer{
+     background-color: #fff;
+}
+.footer{
+    text-align: center;
+    width: 530px;
+    margin: auto;
+    padding: 50px;
+   
+}
+.footer-contant h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+   
+}
+.footer-contant p{
+ color: rgba(159, 155, 155);
+}
+.footer-link{
+    display:flex ;
+    justify-content: space-around;
+}
+.footer-link a{
+    text-decoration: none;
+    color: rgba(159, 155, 155);
+    
 }
 
 
