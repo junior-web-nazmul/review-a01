@@ -49,6 +49,7 @@ nav h1{
 .banner{
     background-image: url(../Assets/Hero-bg.png);
     height: 700px;
+    width: 100%;
 }
 .banner-contant{
     text-align: center;
@@ -210,6 +211,7 @@ nav h1{
 
 .submit-btn{
     width: 525px;height: 60px;
+    margin-top: 10px;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
@@ -245,14 +247,86 @@ footer{
 }
 .footer-link a{
     text-decoration: none;
-    color: rgba(159, 155, 155);
+    color: rgba(159, 155, 155); 
+}
+
+.hide{
+    display: none;
+}
+
+
+/* media Quary */
+@media screen and (max-width:576px) { 
     
+section{
+    margin: 50px 50px 0;
+}
+/* bannar */
+nav{
+    padding: 20px;
+}
+
+.banner-contant{
+    width: fit-content;
+}
+/* action..... */
+.action{
+    flex-direction: column;
+    gap: 20px;
+}
+.action img {
+    width: 100%;
+}
+/* user section */
+.user{
+    background: none;
+    padding: 0;
+    line-height: normal;
+}
+.user-num{
+    flex-direction: column;
 }
 
 
 
+/* user rating */
 
+.rating-container{
+    flex-direction: column;
+}
+.rating-card{
+    width: fit-content;
+}
 
+/* focus section */
+}
+    .focus img{
+        width: 100%;
+    }
+    /* comment section............................ */
+    .comment-contant{
+        flex-direction: column;
+        gap: 0;
+    }   
+    
+   .comment-contant input{
+        width: fit-content;
+   }
+   .comment-form textarea{
+    width: fit-content;
+   }
+   .submit-btn{
+        width: fit-content;
+   }
+    /*footer.............................  */
+    .footer{
+        padding: 0px;
+        width: 100%;
+    }
+    .footer-contant{
+        padding: 20px;
+    }
+}
 
 
 
