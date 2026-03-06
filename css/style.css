@@ -328,15 +328,20 @@ nav{
         width: fit-content;
    }
     /*footer.............................  */
+
     .footer{
+        width: fit-content;
+    }
+    /* .footer{
         padding: 0px;
         padding-bottom: 50px;
         width: 100%;
     }
     .footer-contant{
         padding: 20px;
-    }
+    } */
 }
+
 
 /* medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
