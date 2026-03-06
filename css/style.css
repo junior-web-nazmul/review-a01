@@ -149,6 +149,8 @@ nav h1{
 .rating-profile-name{
     line-height: 0;
     height: 40px;
+    
+    
 }
 
 /* focus section............................... */
@@ -167,6 +169,7 @@ nav h1{
 .focus img{
     margin-top: 20px;
     border-radius: 40px;
+    width: 100%;
 }
 
 /* comment section--------------------- */
@@ -250,12 +253,9 @@ footer{
     color: rgba(159, 155, 155); 
 }
 
-.hide{
-    display: none;
-}
 
 
-/* media Quary */
+/* start media Quary */
 @media screen and (max-width:576px) { 
     
 section{
@@ -265,9 +265,14 @@ section{
 nav{
     padding: 20px;
 }
-
+.banner{
+    height: 600px;
+}
 .banner-contant{
     width: fit-content;
+}
+.banner-contant h4{
+    font-size: 50px;
 }
 /* action..... */
 .action{
@@ -293,13 +298,14 @@ nav{
 
 .rating-container{
     flex-direction: column;
+   line-height: normal;
 }
 .rating-card{
     width: fit-content;
 }
 
 /* focus section */
-}
+
     .focus img{
         width: 100%;
     }
@@ -308,7 +314,10 @@ nav{
         flex-direction: column;
         gap: 0;
     }   
-    
+    .comment-contant h1{
+        font-size: 32px;
+    }
+ 
    .comment-contant input{
         width: fit-content;
    }
@@ -321,11 +330,57 @@ nav{
     /*footer.............................  */
     .footer{
         padding: 0px;
+        padding-bottom: 50px;
         width: 100%;
     }
     .footer-contant{
         padding: 20px;
     }
+}
+
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    section{
+    margin: 50px 50px 0;
+}
+
+/* banner  */
+
+nav{
+    padding: 20px;
+}
+.banner-contant{
+    width: fit-content;
+}
+ 
+    /* action section */
+    .action img{
+        width: 50%;
+    }
+
+    /* user */
+
+    .user{
+        padding: 10px;
+        line-height: normal;
+    }
+
+    /* user rating */
+    .rating-container {
+        line-height: normal;
+    }
+    .rating-profile-name{
+        height: fit-content;
+        line-height: normal;
+        font-size: 10px;
+    }
+/* comment ................... */
+.comment-contant{
+    flex-direction: column;
+}
+
+
+
 }
 
 
